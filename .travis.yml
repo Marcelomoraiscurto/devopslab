@@ -35,3 +35,4 @@ deploy:
   -in lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json.enc -out ../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json
   -d
 
+      
