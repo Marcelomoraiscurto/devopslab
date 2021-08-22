@@ -15,9 +15,9 @@ script:
  
  # BEFORE_INSTALL
 before_install:
-	- openssl aes-256-cbc -K $encrypted_67e210fdb261_key -iv $encrypted_67e210fdb261_iv
-	-in lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json.enc -out ../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json
-	-d 
+- openssl aes-256-cbc -K $encrypted_67e210fdb261_key -iv $encrypted_67e210fdb261_iv
+-in lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json.enc -out ../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json
+-d 
 
 #Deploy
 
@@ -29,6 +29,7 @@ deploy:
   app: devopslab-marcelomoraiz
   on:
     branch: main
+    
 - provider: gae
   keyfile: "../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json"
   project: lab-devops-cloud-marcelomoraiz
