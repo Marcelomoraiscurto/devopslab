@@ -26,7 +26,7 @@ deploy:
 # Definir o deploy no Google Cloud App Engine
  - provider: gae
     keyfile: ../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json
-    project: devopslab-marcelomoraiz
+    project: lab-devops-cloud-marcelomoraiz
     on:
       branch: main
 
