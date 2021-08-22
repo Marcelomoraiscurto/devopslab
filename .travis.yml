@@ -31,9 +31,7 @@ deploy:
     branch: main
     
 - provider: gae
-  keyfile: "../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json"
+  keyfile: ../lab-devops-cloud-marcelomoraiz-51abe35bd7a4.json
   project: lab-devops-cloud-marcelomoraiz
   on:
     branch: main
-
-
